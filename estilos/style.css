@@ -480,21 +480,30 @@ footer>nav>ul>li>a:hover {
 
 .text-center {
   color: white;
-  text-shadow: #FF79BF 2px 2px 2px;
+  text-shadow: #ff0084 2px 2px 2px;
 }
 
 .cardapio-item {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #ffffff4d;
+  padding: 1rem 0;
+  border-bottom: 10px solid #ffffff4d;
+  border-right: 10px solid #ffffff4d;
   align-items: center;
-  width: auto;
+  width: 25rem;
+  height: 40vh;
+  margin-bottom: 1rem;
   font-size: 2rem;
   color: white;
   background-color: #FF79BF;
   padding: 1rem;
+  border-radius: 20px;
+}
+
+.cardapio-item img{
+  width: 100%;
+  border-radius: 15px;
 }
 
 .preco {
@@ -656,6 +665,7 @@ footer>nav>ul>li>a:hover {
     flex-direction: column;
     align-items: center;
     width: auto;
+    height: 30vh;
     font-size: 2rem;
     color: white;
     padding: 1rem;
