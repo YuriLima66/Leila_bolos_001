@@ -27,7 +27,13 @@ main h1 {
   font-weight: bold;
   text-transform: uppercase;
 }
-h2{
+
+.titulo_sobre {
+  font-size: 3rem;
+  margin: 2rem
+}
+
+h2 {
   font-size: 5rem;
   margin: 10rem auto;
 }
@@ -178,14 +184,16 @@ a {
 }
 
 .button {
-  background-color: #FF79BF;
+  background-color: #FFC5DE;
   padding: 0 2%;
   border-radius: 10px;
 
 
 
+
 }
-.link_logo:hover{
+
+.link_logo:hover {
   text-decoration: none;
   border-bottom: none;
 }
@@ -371,10 +379,12 @@ footer>nav>ul>li>a:hover {
   .img_produtos_filho>div>a>img:hover {
     transform: scale(1);
   }
-  .img_produtos_filho>div{
+
+  .img_produtos_filho>div {
     justify-content: space-between;
     gap: 1rem;
   }
+
   .img_produtos_filho>a>img,
   .img_produtos_filho>div>a>img {
     width: 21rem;
@@ -398,11 +408,12 @@ footer>nav>ul>li>a:hover {
     text-align: center;
   }
 
-  .sobre_produtos_filho{
+  .sobre_produtos_filho {
     padding: 1rem;
     text-align: justify;
   }
-  .button{
+
+  .button {
     position: absolute;
     right: 50%;
     transform: translate(70%);
@@ -472,7 +483,7 @@ footer>nav>ul>li>a:hover {
 #cardapio {
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
@@ -501,7 +512,7 @@ footer>nav>ul>li>a:hover {
   border-radius: 20px;
 }
 
-.cardapio-item img{
+.cardapio-item img {
   width: 100%;
   border-radius: 15px;
 }
@@ -521,7 +532,7 @@ footer>nav>ul>li>a:hover {
 }
 
 .modal-body {
-  background-color:aliceblue;
+  background-color: aliceblue;
   color: black;
 }
 
@@ -652,10 +663,11 @@ footer>nav>ul>li>a:hover {
   main {
     margin-top: 7%;
   }
+
   #cardapio {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: space-around;
   }
 
