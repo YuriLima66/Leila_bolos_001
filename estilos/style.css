@@ -375,6 +375,7 @@ footer>nav>ul>li>a:hover {
     display: none;
   }
 
+ 
   .img_produtos_filho>a>img:hover,
   .img_produtos_filho>div>a>img:hover {
     transform: scale(1);
@@ -400,7 +401,7 @@ footer>nav>ul>li>a:hover {
   }
 
   .img_produtos_filho {
-    transform: translate(-45%);
+    transform: translate(-75%);
     height: auto;
   }
 
@@ -431,6 +432,7 @@ footer>nav>ul>li>a:hover {
   .carousel-inner {
     border-radius: 20px;
     margin-top: 5vh;
+    height: 40vh;
   }
 
   /* banners para celular
