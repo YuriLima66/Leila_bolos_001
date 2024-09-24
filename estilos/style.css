@@ -387,7 +387,7 @@ footer>nav>ul>li>a:hover {
 
   .img_produtos_filho>a>img,
   .img_produtos_filho>div>a>img {
-    width: auto;
+    width: 15rem;
     height: auto;
   }
 
@@ -400,7 +400,7 @@ footer>nav>ul>li>a:hover {
   }
 
   .img_produtos_filho {
-    transform: translate(-95%);
+    transform: translate(-75%);
     height: auto;
   }
 
