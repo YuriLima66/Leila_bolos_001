@@ -679,8 +679,8 @@ footer>nav>ul>li>a:hover {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    width: auto;
-    height: 30vh;
+    width: 80vw;
+    height: 35vh;
     font-size: 2rem;
     color: white;
     padding: 1rem;
