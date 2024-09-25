@@ -307,7 +307,8 @@ footer>nav>ul>li>a:hover {
     flex-direction: column;
     align-items: center;
     height: auto;
-    width: 85vw;
+    width: 95vw;
+    padding: 10%;
 
   }
 
@@ -317,13 +318,30 @@ footer>nav>ul>li>a:hover {
   }
 
   .img_produtos_filho {
+    flex-direction: row;
+
     margin-top: 10vh;
-    transform: translate(-50%);
+
+    transform: translate(-60%);
+  }
+
+  .img_produtos_filho div{
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .img_produtos_filho div img , .img_produtos_filho img{
+
+    height: 10vh;
+    width: 20vw;
+
+
   }
 
 
 
 }
+
 
 @media (max-width: 768px) {
   .menu {
@@ -379,11 +397,13 @@ footer>nav>ul>li>a:hover {
   .img_produtos_filho>a>img:hover,
   .img_produtos_filho>div>a>img:hover {
     transform: scale(1);
+  
   }
 
   .img_produtos_filho>div {
     justify-content: space-between;
     gap: 1rem;
+    flex-direction: column;
   }
 
   .img_produtos_filho>a>img,
