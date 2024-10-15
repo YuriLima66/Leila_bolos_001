@@ -62,6 +62,10 @@ h2 {
   transition: ease-in-out 0.7s;
 }
 
+.index_menu{
+  position: fixed; left: 2rem; z-index: 99;
+}
+
 .menu>li {
   transition: ease-in-out 0.7s;
 }
@@ -268,16 +272,99 @@ footer>nav>ul>li>a:hover {
   background: white;
   border-radius: 0.2rem;
 }
-
-.patrocinadores {
-  width: 30rem;
-  margin: auto;
-  display: flex;
-  align-items: center;
+/* Adição - pág contato */
+.icon-bg{
+  background-image: url(../img/bg-icons2.png);
+  background-repeat: repeat;
+  background-size: 35vw;  
 }
 
-.patrocinador {
-  margin-top: 2rem;
+.icon-bg>img{
+  opacity: 0.1;
+}
+
+.projeto h1{
+  font-family: 'Pacifico';
+  font-size: 9rem;
+  text-transform: none;
+  font-weight: lighter;
+  color: #d6e4a4;
+  padding-top: 5%;
+}
+
+.pag-contato{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-contato{  
+  width: 35vw;
+  padding: 5rem;
+}
+
+form div{  
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+form label{  
+  font-family: 'Muli', sans-serif;
+  font-size: 2rem;
+  text-align: left;
+}
+
+form input, form textarea{
+  border-radius: 1rem;
+}
+
+.form-contato h5{
+  font-size: 3rem;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+input[type="submit"]{
+  background-color:#d6e4a4;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.mapa{
+  font-family: 'Muli', sans-serif;
+  font-size: 2rem;
+  border-left: 0.3rem black solid;
+  padding: 5rem;
+}
+
+.mapa p{
+  font-family: 'Muli', sans-serif;
+  font-size: 2rem;
+}
+
+/* Fim da adição */
+
+.logos_footer{
+  width: 30rem;
+  display: flex;
+  align-items: center;
+ 
+}
+.direcao_footer{
+  flex-direction: row;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.logo_footer_filho{
   width: 4rem;
 }
 
@@ -354,8 +441,12 @@ footer>nav>ul>li>a:hover {
     background-color: #0000007a;
     border: none;
   }
+  .index_menu{
+    position: relative;
+  }
 
   .menu.active {
+    position: fixed;
     display: flex;
     top: 0;
     width: 92vw;
@@ -373,6 +464,7 @@ footer>nav>ul>li>a:hover {
 
   .hamburger {
     display: flex;
+    position: fixed;
   }
 
   .menu>li>a:hover {
@@ -391,6 +483,23 @@ footer>nav>ul>li>a:hover {
 
   .logo {
     display: none;
+  }
+  .pag-contato{
+    flex-direction: column;
+  }
+
+  .form-contato{  
+    width: 90vw;
+    padding: 2rem;
+  }
+  
+  .mapa{
+    width: 90vw;
+    padding: 2rem;
+    border-left: none;
+  }
+  iframe{
+    overflow-x: hidden;
   }
 
  
@@ -481,8 +590,12 @@ footer>nav>ul>li>a:hover {
   }
 
   */
+  .direcao_footer{
+    flex-direction: column;
+    align-items: center;
+  }
 
-  .patrocinadores {
+  .logos_footer {
     flex-direction: row;
   }
 
