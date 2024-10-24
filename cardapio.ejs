@@ -25,28 +25,28 @@
       <div></div>
     </div>
     <ul class="menu">
-      <li>
-        <a class="link_logo" href="#top"><img class="logo" src="logos/logo6.png" alt="logo_leilabolos" /></a>
-      </li>
-      <li>
-        <a href="index.html"><img class="logo" src="logos/Bolos da Leila.png" style="width: 22rem;" alt="logo_leilabolos" /></a>
-      </li>
+      <li> <a class="link_logo" href="#top"><img class="logo" src="logos/logo6.png" alt="logo_leilabolos" /></a></li>
+      <li> <a href="/"><img class="logo" src="logos/Bolos da Leila.png" style="width: 22rem;"
+            alt="logo_leilabolos" /></a></li>
       <li></li>
       <li></li>
-      <li><a href="historia.html">História</a></li>
-      <li><a href="index.html">Produtos</a></li>
-      <li><a href="contato.html">Contato</a></li>
+      <li><a href="/historia">História</a></li>
+      <li><a href="/cardapio">Cardápio</a></li>
+      <li><a href="/contato">Contato</a></li>
       <li>
         <!-- Carrinho no Menu -->
         <div id="carrinho-menu">
           <a href="#">
-            <img class="logo_carrinho" src="logos/carrinho-de-compras.png" alt="logo_carrinho" />
+            <img class="logo_menu" src="logos/carrinho-de-compras.png" alt="logo_carrinho" />
           </a>
+
         </div>
+
+        <a href="/login"><img class="logo_menu" src="logos/do-utilizador.png" alt="logo_perfil"></a>
       </li>
     </ul>
 
-    <!-- Botão para abrir o carrinho (escondido por padrão) -->
+    <!-- Botão para abrir o carrinho -->
     <button style="display: none;" id="abrirCarrinho" class="btn btn-warning mt-3">Ver Carrinho</button>
 
     <!-- Carrinho -->
@@ -60,33 +60,33 @@
 
   <main>
     <div class="container mt-5">
-      <h1 class="text-center mb-4">Nosso Cardápio de Delícias</h1>
-      <h2 id="bolos" >Bolos Tradicionais</h2>
+      <h1 class="titulo_cardapio">Nosso Cardápio de Delícias</h1>
+      <h2 id="bolos">Bolos</h2>
       <div id="cardapio">
         <!-- Bolos -->
 
         <div class="cardapio-item">
           <img src="https://via.placeholder.com/150x100.png?text=Bolo+Margherita" alt="Bolo Margherita"
             class="cardapio-img">
-          <span>Bolo Margherita</span><span class="preco">R$ 35,00</span>
+          <span>Bolo Margherita</span><span class="preco">R$ 50,00</span>
           <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal1">Detalhes</button>
         </div>
         <div class="cardapio-item">
           <img src="https://via.placeholder.com/150x100.png?text=Bolo+Floresta+Negra"
             alt="Bolo Floresta Negra Encantada" class="cardapio-img">
-          <span>Bolo Floresta Negra</span><span class="preco">R$ 38,00</span>
+          <span>Bolo Floresta Negra</span><span class="preco">R$ 50,00</span>
           <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal2">Detalhes</button>
         </div>
         <div class="cardapio-item">
           <img src="https://via.placeholder.com/150x100.png?text=Bolo+de+Queijo+c%2F+Chocolate"
             alt="Bolo de Queijo com Gotas de Chocolate" class="cardapio-img">
-          <span>Bolo de Queijo c/ Chocolate</span><span class="preco">R$ 34,00</span>
+          <span>Bolo de Queijo c/ Chocolate</span><span class="preco">R$ 50,00</span>
           <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal3">Detalhes</button>
         </div>
         <div class="cardapio-item">
           <img src="https://via.placeholder.com/150x100.png?text=Bolo+Quatro+Leites"
             alt="Bolo Quatro Leites com Frutas Vermelhas" class="cardapio-img">
-          <span>Bolo Quatro Leites</span><span class="preco">R$ 45,00</span>
+          <span>Bolo Quatro Leites</span><span class="preco">R$ 50,00</span>
           <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal4">Detalhes</button>
         </div>
         <div class="cardapio-item">
@@ -799,25 +799,23 @@
   </main>
 
 
-  <footer style="position:auto">
-    <nav>
+  <footer>
+    <nav class="direcao_footer">
       <ul>
-        <li class="traco"><a href="#">Sobre nós</a></li>
-        <li class="traco"><a href="#">Políticas de Privacidade</a></li>
-        <li class="traco" style="border-right: none;"><a href="#">Contato</a></li>
+        <li><a
+            href="https://www.google.com/maps/place/Bolo+da+Leila/@-23.669609,-46.744016,14z/data=!4m6!3m5!1s0x94ce5186619a2137:0xa4a58de34407d9e3!8m2!3d-23.6696087!4d-46.7440156!16s%2Fg%2F11gcz3kbft?hl=pt-BR&entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank">Horário de atendimento:
+            seg a sáb das 9h às 18h.</a></li>
       </ul>
 
-      <ul class="patrocinadores">
-        <li><img class="patrocinador" src="icone/local.png" alt="icone_mapa"></li>
-        <li><img class="patrocinador" src="icone/whatsapp.png" alt="icone_whatsapp"></li>
-        <li><img class="patrocinador" src="icone/envelope.png" alt="logo_envelope"></li>
-        <li><a href="https://www.instagram.com/leilaabolos/" target="_blank"><img class="patrocinador"
+      <ul class="logos_footer">
+        <li><a href="/contato"><img class="logo_footer_filho" src="icone/local.png" alt="icone_mapa"></a>
+        <li><a href="https://api.whatsapp.com/send?phone=5511980802132" target="_blank"><img class="logo_footer_filho"
+              src="icone/whatsapp.png" alt="icone_whatsapp"></a></li>
+        <li><a href="mailto:leilabolos@gmail.com"><img class="logo_footer_filho" src="icone/envelope.png"
+              alt="logo_envelope"></a></li>
+        <li><a href="https://www.instagram.com/leilaabolos/" target="_blank"><img class="logo_footer_filho"
               src="icone/instagram.png" alt="instagram"></a></li>
-
-      </ul>
-      <ul class="patrocinadores">
-        <li><img class="patrocinador" src="icone/icone_ifood.png" alt="logo_ifood"></li>
-        <li><img class="patrocinador" src="icone/icone_rappi.png" alt="logo_rappi"></li>
 
       </ul>
     </nav>
